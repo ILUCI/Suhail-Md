@@ -15,7 +15,7 @@
 
  
 
-FROM git clone https://github.com/ILUCI/Suhail-Md
+FROM https://quay.io/makima/zr-md:letest
 RUN git clone https://github.com/ILUCI/Suhail-Md /root/smdd
 RUN rm -rf /root/smdd/.git
 WORKDIR /root/smdd
