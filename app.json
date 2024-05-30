@@ -18,6 +18,13 @@
       "value": "true",
       "required" :false
     },
+
+
+    "WAPRESENCE": {
+      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+      "required" :false,
+      "value": "unavailable"
+    },
      
     "GOODBYE": {
       "description": "put 'false' or 'true' to enable & disable GOODBYE ",
