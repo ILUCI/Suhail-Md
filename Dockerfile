@@ -1,6 +1,6 @@
 
 
-FROM https://quay.io/lucizr/zr-md:letest
+FROM quay.io/suhailtechinfo/suhail-v2
 RUN git clone https://github.com/ILUCI/Suhail-Md /root/smdd
 RUN rm -rf /root/smdd/.git
 WORKDIR /root/smdd
